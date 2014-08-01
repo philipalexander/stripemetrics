@@ -1,0 +1,2 @@
+Test Secret Key: sk_test_4VPBvbfPQ44Ft2rvc7XOzm2X
+Test Published Key: pk_test_4VPB8DsMPp6mr2n7ktUo8cE7
