@@ -9,7 +9,7 @@ Plaid.config do |config|
 	config.secret = keys["SECRET"]
 end
 
-new_account = Plaid.call.add_account( "amex","plaid_test", "plaid_good","test@example.com")
+new_account = Plaid.call.add_account( "wells","pjalexander2", "lem0ndr0p","test@example.com")
 puts new_account[:code]
 
 
