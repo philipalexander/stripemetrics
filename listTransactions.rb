@@ -9,5 +9,5 @@ Plaid.config do |config|
 	config.secret = keys["SECRET"]
 end
 
-transactions = Plaid.customer.get_transactions("access_token") 
+transactions = Plaid.customer.get_transactions("WyI1M2U1NDZiNGYwYzUzZTMyNDQ1NWI1MjQiLCI1M2U5ODJmNDUyM2Y0ZGJmNzI5YjQ5YTIiLCI1M2U5ODJmZTUyM2Y0ZGJmNzI5YjQ5YTMiXQ==") 
   puts transactions[:transactions][1]["amount"]
