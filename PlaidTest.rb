@@ -3,13 +3,12 @@ require 'plaid'
 
 keys = YAML.load_file("config.yml")
 
-
 Plaid.config do |config|
 	config.customer_id = keys["CUSTOMER_ID"]
 	config.secret = keys["SECRET"]
 end
 
-new_account = Plaid.call.add_account( "wells","wellsusername", "wellspassword","test@example.com")
+new_account = Plaid.call.add_account( "wells","plaid_test", "plaid_good","test@example.com")
 puts new_account[:code]
 
 
